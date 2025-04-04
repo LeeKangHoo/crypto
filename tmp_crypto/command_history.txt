@@ -1,0 +1,740 @@
+    1  sudo update
+    2  sudo su
+    3  cd ..
+    4  ls
+    5  cd gilgil
+    6  ls
+    7  cd cpu-test
+    8  ls
+    9  ./cpu-test 4 30
+   10  git config --global user.name leekanghoo
+   11  git config --global. user.email protection0828@gmail.com
+   12  git config --global. user.email "protection0828@gmail.com"
+   13  git config --global user.email protection0828@gmail.com
+   14  $ git config --global credential.helper "cache --timeout=360000"\n
+   15  $ git config --global credential.helper "cache --timeout=360000"
+   16  git config --global credential.helper "cache --timeout=360000"
+   17  ssh-keygen -t rsa -b 4096 -C "protection0828@gmail.com"
+   18  ls -a
+   19  cd ..
+   20  ls
+   21  ls -a
+   22  cd ..
+   23  ls
+   24  ls -a
+   25  vim .ssh
+   26  cd .ssh
+   27  ls
+   28  cat id_rsa
+   29  ll
+   30  vim id_rsa
+   31  ls
+   32  vim id_rsa.pub
+   33  cat id_rsa.pub
+   34  cd ..
+   35  ls
+   36  cd ek
+   37  cd download
+   38  ls
+   39  cd 다운로드
+   40  ls
+   41  ls -l
+   42  ./qt-online-installer-linux-x64-4.9.0.run
+   43  chmod 777 qt-online-installer-linux-x64-4.9.0.run
+   44  ls
+   45  ./qt-online-installer-linux-x64-4.9.0.run
+   46  cd ..
+   47  ls
+   48  cd gilgil
+   49  ls
+   50  rm test
+   51  cd test
+   52  ls
+   53  cd ..
+   54  git clone "https://github.com/leekanghoo/sum-test"
+   55  ls
+   56  ls -a
+   57  cd sum-test
+   58  ls
+   59  ls -a
+   60  cd .git
+   61  ls
+   62  cd ..
+   63  ls
+   64  vim sum.h
+   65  ls
+   66  vim sum.cpp
+   67  ls
+   68  git status
+   69  git add sum.h sum.cpp
+   70  ls
+   71  git status
+   72  git commnit
+   73  git commit -m "Add sum modules"
+   74  git status
+   75  git lof
+   76  git log
+   77  vim main.cpp
+   78  ls
+   79  vim sum.cpp
+   80  git add .
+   81  git comnnit -m "fix"
+   82  git commit -m "fix"
+   83  vim main.cpp
+   84  g++ -c -o sum.o sum.cpp
+   85  vim sum.cpp
+   86  vim sum..
+   87  g++ -c -o sum.o sum.cpp
+   88  vim sum.cpp
+   89  fg
+   90  vim sum.cpp
+   91  g++ -c -o sum.o sum.cpp
+   92  ls
+   93  rm sum.o
+   94  ls
+   95  vim Makefile
+   96  make sum.o
+   97  ls
+   98  git add Makefile
+   99  git add main.cpp
+  100  git add sum.cpp
+  101  git add sum.h
+  102  git commnit -m "fix"
+  103  git commit -m "fix"
+  104  make clean
+  105  ls
+  106  make clean
+  107  make
+  108  ls
+  109  vim Makefile
+  110  git push
+  111  vim sum.cpp
+  112  git config --global --list
+  113  cat ../../.ssh/id_rsa.pub
+  114  git status
+  115  git add sum.cpp
+  116  git commnit -m "edit sum.cpp"
+  117  git commit -m "edit sum.cpp"
+  118  git push
+  119  ls
+  120  cd ..
+  121  ls
+  122  mkdir tmp
+  123  cp sum-test/* tmp
+  124  ls
+  125  cd tmp
+  126  ls
+  127  cd ..
+  128  ls
+  129  git clone git@github.com:LeeKangHoo/sum-test.git
+  130  rm sum-test/
+  131  rm -R sum-test/
+  132  rm -Rf sum-test
+  133  ls
+  134  git clone git@github.com:LeeKangHoo/sum-test.git
+  135  ls
+  136  cp tmp/* sum-test
+  137  cd sum-test
+  138  ls
+  139  git add Makefile main.cpp sum.cpp sum.h
+  140  ls
+  141  git status
+  142  git commnit -m "upload source code"
+  143  git commit -m "upload source code"
+  144  git push
+  145  git status
+  146  make clean
+  147  ls
+  148  git status
+  149  la
+  150  cd .git
+  151  ls
+  152  cd branches
+  153  ls
+  154  ls -a
+  155  cd ..
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd vending-machine
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd gilgil
+  164  ls
+  165  mkdir github
+  166  cd github
+  167  ls
+  168  git clone git@github.com:LeeKangHoo/vending-machine.git
+  169  cd ..
+  170  ls
+  171  cd vending-machine
+  172  ls
+  173  ls -a
+  174  ls
+  175  git clone git@github.com:LeeKangHoo/vending-machine.git
+  176  ls
+  177  git add .
+  178  ls -a
+  179  cd ..
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd gilgil
+  184  ls
+  185  cd vending-machine
+  186  ls
+  187  rm -R vending-machine
+  188  cd ..
+  189  ls
+  190  cd github
+  191  git clone git@github.com:LeeKangHoo/vending-machine.git
+  192  ls
+  193  cd vending-machine
+  194  ls -a
+  195  cp ../vending-machine/* ./
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd vending-machine
+  200  cp ../../vending-machine/* ./
+  201  cp -r ../../vending-machine/* ./
+  202  ls
+  203  cd ..
+  204  git clone git@github.com:LeeKangHoo/webclient.git
+  205  cd webclient
+  206  ls
+  207  cp -r ../../webClient/* ./
+  208  ls
+  209  cd ..
+  210  ls
+  211  cd ..
+  212  ls
+  213  cd webClient
+  214  ls
+  215  cd ..
+  216  ls
+  217  cd github
+  218  ls
+  219  cd vending-machine
+  220  ls
+  221  git add .
+  222  git commnit -m "first"
+  223  git commit -m "first"
+  224  git push
+  225  cd ..
+  226  ls
+  227  cd webclient
+  228  ls
+  229  git add .
+  230  git commit -m "first"
+  231  git push 
+  232  ls
+  233  cd ..
+  234  ls
+  235  cd gilgil
+  236  ls
+  237  cd webClient
+  238  ls
+  239  git add .
+  240  cd ..
+  241  ls
+  242  cd github
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd webClient
+  247  git init
+  248  ls
+  249  ls -a
+  250  git remote add origin git@github.com:leekanghoo/webClient.git
+  251  git add .
+  252  git status
+  253  git commit -m "fix"
+  254  git push
+  255  git remote -v
+  256  git push --set-upstream origin master
+  257  git branch -m master main
+  258  git status
+  259  git add .
+  260  git status
+  261  git commit -m "fix"
+  262  git push
+  263  git branch
+  264  git checkout main
+  265  git merge master
+  266  git branch -d master
+  267  git push origin --delete master
+  268  ls
+  269  cd ..
+  270  ls
+  271  cd tmp
+  272  ls
+  273  rm -R ./*
+  274  ls
+  275  cd ..
+  276  ls
+  277  cp webClient/* ./tmp
+  278  cp -r webClient/* ./tmp
+  279  ls
+  280  cd tmp
+  281  ls
+  282  cd ..
+  283  ls
+  284  cd webClient
+  285  ls
+  286  git init
+  287  git remote add origin git@github.com:leekanghoo/webClient.git
+  288  git status
+  289  git push -u origin main
+  290  ls
+  291  ls -a
+  292  rm -rf .git
+  293  git clone git@github.com:LeeKangHoo/webClient.git
+  294  git add .
+  295  ls
+  296  rm webClient
+  297  rm -R webClient
+  298  git init
+  299  git remote add origin https://github.com/leekanghoo/webClient.git
+  300  git add .
+  301  git commit -m "first"
+  302  git push
+  303  git push --set-upstream origin main
+  304  git branch -m master main
+  305  git push
+  306  rm -rf .git
+  307  cd ..
+  308  ls
+  309  cd github
+  310  ls
+  311  cd webclient
+  312  ls
+  313  rm -rf ./*
+  314  ls
+  315  git clone git@github.com:LeeKangHoo/webClient.git
+  316  ls
+  317  pwd
+  318  cd webClient
+  319  ls
+  320  ls -a
+  321  cp ../../webclient/* ./
+  322  cp -r ../../webclient/* ./
+  323  ls
+  324  cd webClient
+  325  ls
+  326  cd ..
+  327  ls
+  328  cd ..
+  329  ls
+  330  ls -a
+  331  cd ..
+  332  ls
+  333  rm -rf ./webclient
+  334  ls
+  335  git clone git@github.com:LeeKangHoo/webClient.git
+  336  ls
+  337  cd webClient
+  338  ls -a
+  339  cp ../../webClient/* ./
+  340  cp -r ../../webClient/* ./
+  341  ls
+  342  cd ..
+  343  cd webClient
+  344  git add .
+  345  git commit -m "first"
+  346  git push
+  347  ls
+  348  cd ..
+  349  ls
+  350  df
+  351  init 0
+  352  ls
+  353  mkdir crypto
+  354  cd crypto
+  355  ls
+  356  git clone https://github.com/PacktPublishing/Demystifying-Cryptography-with-OpenSSL-3.git
+  357  ls
+  358  cd Demystifying-Cryptography-with-OpenSSL-3
+  359  ls
+  360  cd ..
+  361  ls
+  362  sudo apt purge openssl
+  363  ls
+  364  cd Demystifying-Cryptography-with-OpenSSL-3
+  365  ls
+  366  cd ..
+  367  apt install openssl3.4.1
+  368  udo wget https://www.openssl.org/source/openssl-3.4.1.tar.g
+  369  sudo wget https://www.openssl.org/source/openssl-3.4.1.tar.g
+  370  ls
+  371  cd Demystifying-Cryptography-with-OpenSSL-3
+  372  ls
+  373  cd ..
+  374  ls
+  375  200~udo wget https://www.openssl.org/source/openssl-3.4.1.tar.g
+  376  sudo wget https://www.openssl.org/source/openssl-3.4.1.tar.g
+  377  curl https://github.com/openssl/openssl/releases/download/openssl-3.4.1/openssl-3.4.1.tar.gz
+  378  curl "https://github.com/openssl/openssl/releases/download/openssl-3.4.1/openssl-3.4.1.tar.gz"
+  379  wget "https://github.com/openssl/openssl/releases/download/openssl-3.4.1/openssl-3.4.1.tar.gz"
+  380  cd ..
+  381  ls
+  382  mkdir cryptotest
+  383  cd cryptotest
+  384  ls
+  385  curl https://github.com/openssl/openssl/releases/download/openssl-3.4.1/openssl-3.4.1.tar.gz
+  386  cd https://github.com/openssl/openssl/releases/download/openssl-3.4.1/openssl-3.4.1.tar.gz
+  387  cd ..
+  388  ls
+  389  cd crypto
+  390  ls
+  391  tar xzf openssl-3.4.1.tar.gz
+  392  ls
+  393  cd openssl-3.4.1
+  394  ls
+  395  ./config
+  396  ls
+  397  make
+  398  ls
+  399  make install
+  400  ls
+  401  cd ..
+  402  ls
+  403  cd Demystifying-Cryptography-with-OpenSSL-3
+  404  ls
+  405  cd Chapter02
+  406  ls
+  407  cd ..
+  408  ls
+  409  cd ..
+  410  ls
+  411  cd openssl-3.4.1
+  412  ls
+  413  cd ..
+  414  ls
+  415  cd Demystifying-Cryptography-with-OpenSSL-3
+  416  ls
+  417  cd Chapter02
+  418  make
+  419  ks .
+  420  ls /
+  421  ls
+  422  cd /
+  423  ls
+  424  cd usr
+  425  ls
+  426  cd include
+  427  ls
+  428  find ope
+  429  grep op
+  430  grep open
+  431  find -h
+  432  find ./ open
+  433  find ./ ssl
+  434  find ./ openssl
+  435  cd ..
+  436  ls
+  437  cd ..
+  438  ls
+  439  cd ~
+  440  ls
+  441  cd crypto
+  442  ls
+  443  cd Demystifying-Cryptography-with-OpenSSL-3
+  444  ls
+  445  cd Chapter
+  446  cd Chapter02
+  447  ls
+  448  make
+  449  cd ..
+  450  ls
+  451  cd /
+  452  ls
+  453  cd usr/i
+  454  cd usr/include
+  455  ls
+  456  cd ..
+  457  ls
+  458  cd ~
+  459  ls
+  460  cd crypto
+  461  ls
+  462  cd openssl-3.4.1
+  463  ls
+  464  cd include
+  465  ls
+  466  cp ./openssl /usr/include
+  467  cp -r ./openssl /usr/include
+  468  sudo cp -r ./openssl /usr/include
+  469  cd ..
+  470  ls
+  471  cd Demystifying-Cryptography-with-OpenSSL-3/Chapter02
+  472  ls
+  473  make
+  474  cd ..
+  475  ls
+  476  cd /
+  477  ls
+  478  cd usr/i
+  479  cd usr/include
+  480  ls
+  481  ls -l openssl
+  482  ls |grep openssl
+  483  ls -l |grep openssl
+  484  chmod 777 openssl
+  485  sudo chmod 777 openssl
+  486  cd ~
+  487  ls
+  488  cd crypto
+  489  ls
+  490  cd Demystifying-Cryptography-with-OpenSSL-3
+  491  ls
+  492  cd Chapter02
+  493  ls
+  494  make
+  495  cd ..
+  496  ls
+  497  ls /usr/include/openssl
+  498  cd ..
+  499  ls
+  500  cd ..
+  501  ls
+  502  rm -r /usr/include/openssl
+  503  rm -rf /usr/include/openssl
+  504  sudo rm -rf /usr/include/openssl
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd nine9/
+  509  ls
+  510  cd crypto
+  511  ls
+  512  cd openssl-3.4.1
+  513  ls
+  514  sudo make install
+  515  cd ..
+  516  ls
+  517  cd Demystifying-Cryptography-with-OpenSSL-3
+  518  ls
+  519  cd Chapter02
+  520  ls
+  521  make
+  522  ls
+  523  cat Makefile
+  524  ls
+  525  make clean
+  526  ls
+  527  ls /usr/include/openssl
+  528  ls /usr/include/
+  529  cd ..
+  530  ls
+  531  cd ..
+  532  ls
+  533  cd openssl-3.4.1
+  534  ls
+  535  cp include/openssl /usr/include
+  536  sudo cp -r include/openssl /usr/include
+  537  sudo chmod 777 /usr/include
+  538  cd ..
+  539  ls
+  540  cd Demystifying-Cryptography-with-OpenSSL-3
+  541  ls
+  542  cd Chapter02
+  543  ls
+  544  make
+  545  rm -rf /usr/include/openssl
+  546  sudo rm -rf /usr/include/openssl
+  547  ls
+  548  make clean
+  549  ls
+  550  cd ..
+  551  ls
+  552  ls Chapter02
+  553  cd ..
+  554  ls
+  555  cd /usr/include
+  556  ls
+  557  ls -l |grep openssl
+  558  ls
+  559  ls -l |grep openssl
+  560  find ./ openssl
+  561  cd ~/crypto
+  562  ls
+  563  cd openssl-3.4.1
+  564  cd .
+  565  cd ..
+  566  cd Demystifying-Cryptography-with-OpenSSL-3
+  567  ls
+  568  cd Chapter02
+  569  ll
+  570  ls
+  571  cd //
+  572  cd ..
+  573  ls
+  574  cd home
+  575  ls
+  576  cd nine9
+  577  ls
+  578  cd crypto
+  579  ls
+  580  cd openssl-3.4.1
+  581  ls
+  582  ls /usr/include
+  583  ls
+  584  ls /usr/include
+  585  ls
+  586  cp include/openssl /usr/include
+  587  cp -r include/openssl /usr/include
+  588  ls
+  589  cd .
+  590  cd ..
+  591  ls
+  592  cd openssl-3.4.1
+  593  ls
+  594  cp -R include ../
+  595  ls
+  596  cd ..
+  597  ls
+  598  rm -rf include
+  599  ls
+  600  cd openssl-3.4.1
+  601  ls
+  602  cd ..
+  603  ls
+  604  cd Demystifying-Cryptography-with-OpenSSL-3
+  605  ls
+  606  cd Chapter02
+  607  ls
+  608  openssl
+  609  where is openssl
+  610  where is tmp
+  611  where is make
+  612  ls
+  613  xxd-plain -len 32 -cols 32 /dev/random
+  614  xxd -plain -len 32 -cols 32 /dev/random
+  615  openssl rand rand -hex 32
+  616  openssl rand -hex 32
+  617  ls
+  618  cd ..
+  619  ls
+  620  cd ..
+  621  ls
+  622  mkdir tmp_crypto
+  623  cd tmp_crypto
+  624  ls
+  625  seq 1000>somfile.txt
+  626  ls
+  627  cat somfile.txt
+  628  vi somfile.txt
+  629  seq 2
+  630  openssl rand -hex 32
+  631  openssl rand -hex 16
+  632  openssl enc\\n-aes-256-cbc\\n-K dc317eb1439828d43b20a078ae13e319b8591a089eeae9638207c47979bac7be\\n-iv 199fee570bc1ea643d933850a179d92f\\n-e \\n-in somfile.txt \\n-out somfile.txt.enc
+  633  openssl enc \\n-aes-256-cbc\\n-K dc317eb1439828d43b20a078ae13e319b8591a089eeae9638207c47979bac7be\\n-iv 199fee570bc1ea643d933850a179d92f\\n-e \\n-in somfile.txt \\n-out somfile.txt.enc
+  634  ls
+  635  openssl enc \\n-aes-256-cbc \\n-K dc317eb1439828d43b20a078ae13e319b8591a089eeae9638207c47979bac7be \\n-iv 199fee570bc1ea643d933850a179d92f \\n-e \\n-in somfile.txt \\n-out somfile.txt.enc
+  636  ls
+  637  cat somfile.txt.enc 
+  638  vim somfile.txt.enc
+  639  ls
+  640  vim somfile.txt
+  641  openssl enc \\n-aes-256-cbc \\n-K dc317eb1439828d43b20a078ae13e319b8591a089eeae9638207c47979bac7be \\n-iv 199fee570bc1ea643d933850a179d92f \\n-d \\n-in somfile.txt.enc \\n-out somfile.txt.dec
+  642  ls
+  643  cat somfile.txt.dec
+  644  ls
+  645  openssl dgst somfile.txt.*
+  646  openssl dgst somfile.txt*
+  647  openssl enc \\n-aes-256-ctr \\n-K dc317eb1439828d43b20a078ae13e319b8591a089eeae9638207c47979bac7be \\n-iv 199fee570bc1ea643d933850a179d92f \\n-e \\n-in somfile.txt \\n-out somfile.txt.enc
+  648  ls
+  649  ls -l
+  650  ls -al
+  651  openssl enc \\n-aes-256-ctr \\n-K dc317eb1439828d43b20a078ae13e319b8591a089eeae9638207c47979bac7be \\n-iv 199fee570bc1ea643d933850a179d92f \\n-d \\n-in somfile.txt.enc \\n-out somfile.txt.dec
+  652  ls
+  653  ls -al
+  654  ls
+  655  cd ..
+  656  ls
+  657  pwd
+  658  git init
+  659  git add .
+  660  git status
+  661  ls
+  662  git status
+  663  git commnit -m "first"
+  664  git commit -m "first"
+  665  git branch -M main
+  666  git remote add origin git@github.com:LeeKangHoo/crypto.git
+  667  git push -u origin main
+  668  ls
+  669  cd tmp_crypto
+  670  ls
+  671  history
+  672  history > command_history.txt
+  673  ls
+  674  vim command_history.txt
+  675  ls
+  676  openssl genpkey \\n-algorithm RSA \\n-pkeyopt rsa_keygen_bits:4096 \\n-out RSA_keypair.pem
+  677  ls
+  678  openssl pkeyutl \\n- encrypt \\n-in session key.bin \\n-out session key.bin.encrypted \\n-pubin \\n-inkey rsa public key-pem \\n-pkeyopt rsa padding mode:oaep
+  679  openssl pkeyutl \\n- encrypt \\n-in session key.bin \\n-out session key.bin.encrypted \\n-pubin \\n-inkey rsa public key-pem \\n-pkeyopt rsa_padding_mode:oaep
+  680  openssl pkeyutl \\n- encrypt \\n-in session key.bin \\n-out session key.bin.encrypted \\n-pubin \\n-inkey rsa_public_key.pem \\n-pkeyopt rsa_padding_mode:oaep
+  681  openssl pkeyutl \\n-encrypt \\n-in session key.bin \\n-out session key.bin.encrypted \\n-pubin \\n-inkey rsa_public_key.pem \\n-pkeyopt rsa_padding_mode:oaep
+  682  ls
+  683  seq 20000>somefile.txt
+  684  cat somfile.txt
+  685  ls
+  686  ls -l
+  687  openssl pkeyutl \\n-encrypt \\n-in somefile.txt \\n-out somefile.txt.enc \\n-pubin \\n-inkey rsa_padding_mode:oaep
+  688  cd ..
+  689  ls
+  690  cd Demystifying-Cryptography-with-OpenSSL-3
+  691  ls
+  692  cd Chapter06
+  693  ls
+  694  make
+  695  ls
+  696  cd ..
+  697  ls
+  698  cd ..
+  699  ls
+  700  cd tmp_crypto
+  701  openssl genpkey \\n-algorithm EC \\n-pkeyopt ec_paramgen_curve:secp521r1 \\n-out ec_keypair.pem
+  702  base64
+  703  base64 -help
+  704  base64 --help
+  705  ls
+  706  cat ec_keypair.pem
+  707  base64 decode MIHuAgEAMBAGByqGSM49AgEGBSuBBAAjBIHWMIHTAgEBBEIBCF8HxaFZqfRgTbBW\nfPJaNJ+cv2DeRHth1iNMNH2+JQLyC7nPhL4gZxE+pAWZPD+Fc31VzAO3W3S0F5rB\nOGm310mhgYkDgYYABAD21Hg2K99o5A8M6bLBH1fUthaWqXXj0HcHk4a3G2563RCr\n9yx5UeTRfLsGNsPuvLMsZAf2OFSMA92pQnfCN6jncAHy7jWJXK95tCxP82TILGp1\nYoWXr+tPuOu7Al2+ATnAe+uimRtPpn/G49VXIjgtIiZ/6Y8O2DvQq0FocU8UdU1B\n4w==\n
+  708  base63 --help
+  709  base64 --help
+  710  base64 -d MIHuAgEAMBAGByqGSM49AgEGBSuBBAAjBIHWMIHTAgEBBEIBCF8HxaFZqfRgTbBW\nfPJaNJ+cv2DeRHth1iNMNH2+JQLyC7nPhL4gZxE+pAWZPD+Fc31VzAO3W3S0F5rB\nOGm310mhgYkDgYYABAD21Hg2K99o5A8M6bLBH1fUthaWqXXj0HcHk4a3G2563RCr\n9yx5UeTRfLsGNsPuvLMsZAf2OFSMA92pQnfCN6jncAHy7jWJXK95tCxP82TILGp1\nYoWXr+tPuOu7Al2+ATnAe+uimRtPpn/G49VXIjgtIiZ/6Y8O2DvQq0FocU8UdU1B\n4w==\n
+  711  ls
+  712  base64 -d ec_keypair.pem
+  713  vim test.txt
+  714  base64 -d ec_keypair.pem
+  715  base64 -d test.txt
+  716  rm test.txt
+  717  ls
+  718  v
+  719  open ssl pkey - in ec_keypair.pem -pubout -out ec_keypair.pem
+  720  open ssl pkey -in ec_keypair.pem -pubout -out ec_keypair.pem
+  721  openssl pkey -in ec_keypair.pem -pubout -out ec_keypair.pem
+  722  ls
+  723  openssl pkey -in ec_keypair.pem -noout -text
+  724  ls
+  725  cat ec_keypair.pem
+  726  openssl genpkey \\n-algorithm EC \\n-pkeyopt ec_paramgen_curve:secp521r1 \\n-out ec_keypair.pem
+  727  cat ec_keypair.pem
+  728  openssl pkey -in ec_keypair.pem -noout -text
+  729  openssl pkey -in ec_keypair.pem -pubout -out ec_keypair.pem
+  730  cat ec_keypair.pem
+  731  openssl genpkey \\n-algorithm EC \\n-pkeyopt ec_paramgen_curve:secp521r1 \\n-out ec_keypair.pem
+  732  openssl pkey -in ec_keypair.pem -noout -text
+  733  cat ec_keypair.pem
+  734  cd ..
+  735  ls
+  736  cd tmp_crypto
+  737  ls
+  738  openssl pkey \\n-in ec_keypair.pem \\n-pubout -out ec_keypair.pem
+  739  openssl pkeyutl \-sign   -digest sha3-512 \-inkeyec_keypair.pem\-in somefile.txt \-rawin-out somefile.txt.signature
+  740  ls
